@@ -50,7 +50,7 @@ static int contains(int arr[], int n, int key) {
   int i;
   for(i=0; i<n; i++) {
     if(arr[i] == key) {
-      return 1;
+      return 0;
     }
   }
   return 0;
