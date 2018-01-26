@@ -47,7 +47,7 @@ int isKaprekar(int n) {
     //test if the split makes a Kaprekar number
     if(second > 0 &&
        first + second == n) {
-      return 1;
+      return 0;
     }
   }
   return 0;
